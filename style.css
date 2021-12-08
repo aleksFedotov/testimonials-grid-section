@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 *,
 *::after,
 *::before {
@@ -14,12 +14,12 @@ html {
 body {
   font-size: 1.3rem;
   line-height: 1.6;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   background-color: #cfcfcf;
   padding: 2rem;
 }
@@ -140,7 +140,9 @@ body {
 @media only screen and (max-width: 650px) {
   .testimonials {
     grid-template-columns: 1fr;
-    grid-template-rows: fit-content(40rem) 1fr 1fr fit-content(40rem) fit-content(40rem);
+    grid-template-rows: fit-content(40rem) 1fr 1fr fit-content(40rem) fit-content(
+        40rem
+      );
     max-width: 40rem;
     width: 100%;
   }
